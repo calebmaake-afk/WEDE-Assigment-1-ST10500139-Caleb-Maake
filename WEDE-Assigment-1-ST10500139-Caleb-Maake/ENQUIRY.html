@@ -1,6 +1,133 @@
-<Doctype HTML>
- <h1> ENQUIRIES </h1>   
- <p> This is where consumers are able to enquiry about any upcoming events </p>
- <a href="HOME.html">HOME</a>
-</HTML>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <title>ANATOMY | Enquiry</title>
+    <meta name="description" content="Send us your enquiry - wholesale, collaborations, or general questions">
+     <link rel="stylesheet" type="text/css" href="Style.css">
+</head>
+<body>
 
+<header>
+    <div class="logo">ANATOMY</div>
+    <p>NOTHING BUT PURPOSE</p>
+</header>
+
+<nav>
+    <a href="index.html">HOME</a>
+    <a href="about.html">ABOUT US</a>
+    <a href="products.html">PRODUCTS</a>
+    <a href="enquiry.html" class="active">ENQUIRY</a>
+    <a href="contact.html">CONTACT</a>
+</nav>
+
+<!-- BACK BUTTON - Returns to Home Page -->
+<div class="back-button-container">
+    <a href="index.html" class="back-btn">← BACK TO HOME</a>
+</div>
+
+<div class="container">
+    <section class="enquiry-header">
+        <h1>SEND AN ENQUIRY</h1>
+        <p>HAVE QUESTIONS ABOUT OUR PRODUCTS, WHOLESALE OPPORTUNITIES, OR COLLABORATIONS? WE'D LOVE TO HEAR FROM YOU.</p>
+    </section>
+
+    <div class="enquiry-grid">
+        <div class="enquiry-form-container">
+            <form class="enquiry-form" id="enquiryForm">
+                <div class="form-group">
+                    <label for="fullname">FULL NAME *</label>
+                    <input type="text" id="fullname" name="fullname" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">EMAIL ADDRESS *</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="phone">PHONE NUMBER</label>
+                    <input type="tel" id="phone" name="phone">
+                </div>
+
+                <div class="form-group">
+                    <label for="enquiry-type">ENQUIRY TYPE *</label>
+                    <select id="enquiry-type" name="enquiry-type" required>
+                        <option value="">SELECT AN OPTION</option>
+                        <option value="general">GENERAL QUESTION</option>
+                        <option value="wholesale">WHOLESALE / BULK ORDER</option>
+                        <option value="collaboration">COLLABORATION / PARTNERSHIP</option>
+                        <option value="order">ORDER STATUS</option>
+                        <option value="returns">RETURNS / EXCHANGE</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="subject">SUBJECT *</label>
+                    <input type="text" id="subject" name="subject" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="message">MESSAGE *</label>
+                    <textarea id="message" name="message" rows="6" required></textarea>
+                </div>
+
+                <div class="form-group">
+                    <label class="checkbox-label">
+                        <input type="checkbox" name="newsletter"> SUBSCRIBE TO OUR NEWSLETTER FOR UPDATES AND EXCLUSIVE OFFERS
+                    </label>
+                </div>
+
+                <button type="submit" class="btn submit-btn">SEND ENQUIRY</button>
+            </form>
+            <div id="form-success" class="form-success hidden">
+                <p>✓ THANK YOU FOR YOUR ENQUIRY! WE'LL GET BACK TO YOU WITHIN 24-48 HOURS.</p>
+            </div>
+        </div>
+
+        <div class="enquiry-info">
+            <div class="info-card">
+                <h3>RESPONSE TIME</h3>
+                <p>We aim to respond to all enquiries within <strong>24-48 hours</strong> on business days.</p>
+            </div>
+            <div class="info-card">
+                <h3>WHOLESALE ENQUIRIES</h3>
+                <p>For bulk orders and wholesale partnerships, please include your business details and expected order quantity.</p>
+            </div>
+            <div class="info-card">
+                <h3>COLLABORATIONS</h3>
+                <p>Interested in collaborating with ANATOMY? Tell us about your brand and vision.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<footer>
+    <div class="footer-content">
+        <div class="footer-section">
+            <h4>ANATOMY</h4>
+            <p>NOTHING BUT PURPOSE</p>
+        </div>
+        <div class="footer-section">
+            <h4>QUICK LINKS</h4>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="products.html">PRODUCTS</a></li>
+                <li><a href="enquiry.html">ENQUIRY</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+        </div>
+        <div class="footer-section">
+            <h4>CONTACT</h4>
+            <p>EMAIL: INFO@ANATOMY.CO.ZA</p>
+            <p>PHONE: +27 11 123 4567</p>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <p>&copy; 2026 ANATOMY CLOTHING BRAND. ALL RIGHTS RESERVED.</p>
+    </div>
+</footer>
+</body>
+</html>
