@@ -1,22 +1,3 @@
-/* ============================================
-   ANATOMY CLOTHING BRAND - MAIN STYLESHEET
-   ============================================ 
-   
-   COLOUR PALETTE:
-   - Primary: Black (#000) for background
-   - Secondary: White (#FFFFFF) for accents and buttons
-   - Accent: Cream White (#FFF8E7) for text and important elements
-   
-   TYPOGRAPHY:
-   - Headings: Montserrat (Google Font) fallback: Helvetica Neue, sans-serif
-   - Body: Inter (Google Font) fallback: Arial, sans-serif
-   - All caps for navigation and small labels
-   
-   ============================================ */
-
-/* Import Google Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Montserrat:wght@600;700;800&display=swap');
-
 /* ===== 1. CSS RESET & BASE STYLES ===== */
 * {
     margin: 0;
