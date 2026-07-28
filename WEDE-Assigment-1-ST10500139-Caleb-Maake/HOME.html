@@ -1,123 +1,154 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
-    <title>ANATOMY | Nothing But Purpose - Home</title>
-    <meta name="description" content="ANATOMY clothing brand - Redefining fashion through quality, individuality, and empowerment.">
-     <link rel="stylesheet" type="text/css" href="Style.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>ANATOMY | Nothing But Purpose - Home</title>
+  <meta name="description" content="ANATOMY clothing brand - Redefining fashion through quality, individuality, and empowerment.">
+  <meta name="theme-color" content="#111111">
+  <link rel="icon" href="/favicon.ico">
+  <link rel="stylesheet" href="Style.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "ANATOMY",
+    "url": "https://example.com",
+    "logo": "https://example.com/assets/logo.png"
+  }
+  </script>
 </head>
 <body>
+  <a class="skip-link" href="#main-content">Skip to content</a>
 
-<header>
-    <div class="logo">ANATOMY</div>
-    <p>NOTHING BUT PURPOSE</p>
-</header>
-
-<nav>
-    <a href="Home.html">Home</a>
-    <a href="about.html">ABOUT US</a>
-    <a href="products.html">PRODUCTS</a>
-    <a href="enquiry.html">ENQUIRY</a>
-    <a href="contact.html">CONTACT</a>
-</nav>
-
-<section class="hero">
-    <div class="hero-content">
-        <h1>NOTHING BUT PURPOSE</h1>
-        <p class="tagline">EXPLORE THE ANATOMY OF STYLE</p>
-        <a href="products.html" class="btn btn-large">SHOP NOW</a>
+  <header class="site-header" role="banner">
+    <div class="site-brand">
+      <a href="HOME.html" aria-label="ANATOMY Home" class="logo">ANATOMY</a>
+      <p class="tagline">NOTHING BUT PURPOSE</p>
     </div>
-</section>
+  </header>
 
-<div class="container">
-    <section class="featured-categories">
-        <h2>SHOP BY CATEGORY</h2>
-        <div class="category-grid">
-            <div class="category-card">
-                <h3>HOODIES</h3>
-                <p>Premium comfort meets street style</p>
-            </div>
-            <div class="category-card">
-                <h3>T-SHIRTS</h3>
-                <p>Essential everyday wear</p>
-            </div>
-            <div class="category-card">
-                <h3>TRACKSUITS</h3>
-                <p>Head-to-toe excellence</p>
-            </div>
-            <div class="category-card">
-                <h3>ACCESSORIES</h3>
-                <p>Caps, socks & more</p>
-            </div>
-        </div>
+  <nav class="site-nav" aria-label="Main navigation">
+    <ul>
+      <li><a href="HOME.html">Home</a></li>
+      <li><a href="about.html">About us</a></li>
+      <li><a href="products.html">Products</a></li>
+      <li><a href="enquiry.html">Enquiry</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+
+  <main id="main-content" class="site-main" role="main">
+    <section class="hero" aria-labelledby="hero-heading">
+      <div class="hero-content">
+        <h1 id="hero-heading">NOTHING BUT PURPOSE</h1>
+        <p class="hero-tagline">EXPLORE THE ANATOMY OF STYLE</p>
+        <a class="btn btn-large" href="products.html">Shop now</a>
+      </div>
     </section>
 
-    <section class="featured-products">
-        <h2>BEST SELLERS</h2>
-        <div class="product-gallery">
-            <div class="product-card">
-                <h3>SIGNATURE HOODIE</h3>
-                <p class="product-desc">Premium cotton blend • Relaxed fit</p>
-                <p class="price">R850</p>
-                <button class="order-btn">ADD TO CART</button>
-            </div>
-            <div class="product-card">
-                <h3>ANATOMY LOGO TEE</h3>
-                <p class="product-desc">100% combed cotton • Regular fit</p>
-                <p class="price">R450</p>
-                <button class="order-btn">ADD TO CART</button>
-            </div>
-            <div class="product-card">
-                <h3>ESSENTIAL TRACKSUIT</h3>
-                <p class="product-desc">Polyester blend • Two-piece set</p>
-                <p class="price">R1,250</p>
-                <button class="order-btn">ADD TO CART</button>
-            </div>
-            <div class="product-card">
-                <h3>STRUCTURED CAP</h3>
-                <p class="product-desc">Adjustable • Embroidered logo</p>
-                <p class="price">R320</p>
-                <button class="order-btn">ADD TO CART</button>
-            </div>
-        </div>
+    <section class="featured-categories" aria-labelledby="categories-heading">
+      <h2 id="categories-heading">Shop by category</h2>
+      <div class="category-grid">
+        <article class="category-card" aria-labelledby="c-hoodies">
+          <h3 id="c-hoodies">Hoodies</h3>
+          <p>Premium comfort meets street style</p>
+        </article>
+        <article class="category-card" aria-labelledby="c-tees">
+          <h3 id="c-tees">T-shirts</h3>
+          <p>Essential everyday wear</p>
+        </article>
+        <article class="category-card" aria-labelledby="c-tracksuits">
+          <h3 id="c-tracksuits">Tracksuits</h3>
+          <p>Head-to-toe excellence</p>
+        </article>
+        <article class="category-card" aria-labelledby="c-accessories">
+          <h3 id="c-accessories">Accessories</h3>
+          <p>Caps, socks &amp; more</p>
+        </article>
+      </div>
     </section>
 
-    <section class="brand-message">
-        <div class="message-content">
-            <h2>REDEFINING STREETWEAR</h2>
-            <p>ANATOMY was founded with the vision of creating a retail space that goes beyond traditional shopping. We're not just selling clothes — we're building a lifestyle rooted in empowerment, creativity, and individuality.</p>
-            <a href="about.html" class="btn">OUR STORY</a>
-        </div>
-    </section>
-</div>
+    <section class="featured-products" aria-labelledby="bestsellers-heading">
+      <h2 id="bestsellers-heading">Best sellers</h2>
+      <div class="product-gallery">
+        <article class="product-card" data-product-id="sku-hoodie-01" data-price="850" aria-labelledby="p1-title">
+          <figure>
+            <img src="assets/signature-hoodie.jpg" alt="Signature hoodie — charcoal" width="400" height="400">
+            <figcaption class="visually-hidden">Signature hoodie</figcaption>
+          </figure>
+          <h3 id="p1-title">Signature Hoodie</h3>
+          <p class="product-desc">Premium cotton blend • Relaxed fit</p>
+          <p class="price"><span class="currency">R</span><span class="amount">850</span></p>
+          <button type="button" class="order-btn" aria-label="Add Signature Hoodie to cart">Add to cart</button>
+        </article>
 
-<footer>
+        <article class="product-card" data-product-id="sku-tee-01" data-price="450" aria-labelledby="p2-title">
+          <figure>
+            <img src="assets/anatomy-logo-tee.jpg" alt="ANATOMY logo tee — white" width="400" height="400">
+          </figure>
+          <h3 id="p2-title">ANATOMY Logo Tee</h3>
+          <p class="product-desc">100% combed cotton • Regular fit</p>
+          <p class="price"><span class="currency">R</span><span class="amount">450</span></p>
+          <button type="button" class="order-btn" aria-label="Add ANATOMY Logo Tee to cart">Add to cart</button>
+        </article>
+
+        <article class="product-card" data-product-id="sku-tracksuit-01" data-price="1250" aria-labelledby="p3-title">
+          <figure>
+            <img src="assets/essential-tracksuit.jpg" alt="Essential tracksuit — black" width="400" height="400">
+          </figure>
+          <h3 id="p3-title">Essential Tracksuit</h3>
+          <p class="product-desc">Polyester blend • Two-piece set</p>
+          <p class="price"><span class="currency">R</span><span class="amount">1250</span></p>
+          <button type="button" class="order-btn" aria-label="Add Essential Tracksuit to cart">Add to cart</button>
+        </article>
+
+        <article class="product-card" data-product-id="sku-cap-01" data-price="320" aria-labelledby="p4-title">
+          <figure>
+            <img src="assets/structured-cap.jpg" alt="Structured cap — black" width="400" height="400">
+          </figure>
+          <h3 id="p4-title">Structured Cap</h3>
+          <p class="product-desc">Adjustable • Embroidered logo</p>
+          <p class="price"><span class="currency">R</span><span class="amount">320</span></p>
+          <button type="button" class="order-btn" aria-label="Add Structured Cap to cart">Add to cart</button>
+        </article>
+      </div>
+    </section>
+
+    <section class="brand-message" aria-labelledby="brand-heading">
+      <div class="message-content">
+        <h2 id="brand-heading">Redefining streetwear</h2>
+        <p>ANATOMY was founded with the vision of creating a retail space that goes beyond traditional shopping. We're not just selling clothes — we're building a lifestyle rooted in empowerment and high-quality design.</p>
+        <a href="about.html" class="btn" aria-label="Read our story">Our story</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer" role="contentinfo">
     <div class="footer-content">
-        <div class="footer-section">
-            <h4>ANATOMY</h4>
-            <p>NOTHING BUT PURPOSE</p>
-        </div>
-        <div class="footer-section">
-            <h4>QUICK LINKS</h4>
-            <ul>
-                <li><a href="Home.html">HOME</a></li>
-                <li><a href="about.html">ABOUT</a></li>
-                <li><a href="products.html">PRODUCTS</a></li>
-                <li><a href="enquiry.html">ENQUIRY</a></li>
-                <li><a href="contact.html">CONTACT</a></li>
-            </ul>
-        </div>
-        <div class="footer-section">
-            <h4>CONTACT</h4>
-            <p>EMAIL: INFO@ANATOMY.CO.ZA</p>
-            <p>PHONE: +27 11 123 4567</p>
-        </div>
+      <div class="footer-section">
+        <h4>ANATOMY</h4>
+        <p>NOTHING BUT PURPOSE</p>
+      </div>
+      <div class="footer-section">
+        <h4>Quick links</h4>
+        <ul>
+          <li><a href="HOME.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="products.html">Products</a></li>
+          <li><a href="enquiry.html">Enquiry</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-section">
+        <h4>Contact</h4>
+        <p>Email: <a href="mailto:info@anatomy.co.za">info@anatomy.co.za</a></p>
+        <p>Phone: <a href="tel:+27111234567">+27 11 123 4567</a></p>
+      </div>
     </div>
     <div class="footer-bottom">
-        <p>&copy; 2026 ANATOMY CLOTHING BRAND. ALL RIGHTS RESERVED.</p>
+      <p>&copy; 2026 ANATOMY CLOTHING BRAND. ALL RIGHTS RESERVED.</p>
     </div>
-</footer>
-
+  </footer>
 </body>
 </html>
